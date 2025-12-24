@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-24T16:00:03 IST" name="Calculator Suite" finished-at="2025-12-24T16:00:32 IST" duration-ms="28565">
+    <groups>
+    </groups>
+    <test started-at="2025-12-24T16:00:03 IST" name="Calculator Tests" finished-at="2025-12-24T16:00:32 IST" duration-ms="28565">
+      <class name="tests.CalculatorTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:03 IST" name="setup" finished-at="2025-12-24T16:00:09 IST" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:09 IST" name="setupPage" finished-at="2025-12-24T16:00:10 IST" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verifyAddition()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:10 IST" name="verifyAddition" finished-at="2025-12-24T16:00:14 IST" duration-ms="4233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddition -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:14 IST" name="setupPage" finished-at="2025-12-24T16:00:15 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verifyDivideByZero()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:15 IST" name="verifyDivideByZero" finished-at="2025-12-24T16:00:18 IST" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDivideByZero -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:18 IST" name="setupPage" finished-at="2025-12-24T16:00:18 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verifyDivision()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:18 IST" name="verifyDivision" finished-at="2025-12-24T16:00:22 IST" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDivision -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:22 IST" name="setupPage" finished-at="2025-12-24T16:00:22 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verifyMultiplication()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:22 IST" name="verifyMultiplication" finished-at="2025-12-24T16:00:25 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultiplication -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:25 IST" name="setupPage" finished-at="2025-12-24T16:00:25 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="verifySubtract()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:25 IST" name="verifySubtract" finished-at="2025-12-24T16:00:29 IST" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubtract -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorTest@2462cb01]" started-at="2025-12-24T16:00:29 IST" name="tearDown" finished-at="2025-12-24T16:00:32 IST" duration-ms="3236" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Error executing adbExec. Original error: 'Command ''C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe' -P 5037 -s ZD22284PKR shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9dc77d83-2bf9-4203-b264-087a23d67c6e, quit {}]
+Capabilities {appium:appActivity: com.bak.mnr.calculatrice.Ma..., appium:appPackage: com.bak.mnr.calculatrice, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.bak.mnr.calculatrice.Ma..., appPackage: com.bak.mnr.calculatrice, automationName: UiAutomator2, deviceName: ZD22284PKR, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 13}, appium:deviceApiLevel: 33, appium:deviceManufacturer: motorola, appium:deviceModel: moto g72, appium:deviceName: ZD22284PKR, appium:deviceScreenDensity: 400, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: ZD22284PKR, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.5, appium:platformVersion: 13, appium:statBarHeight: 105, appium:takesScreenshot: true, appium:viewportRect: {height: 2295, left: 0, top: 105, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 9dc77d83-2bf9-4203-b264-087a23d67c6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Error executing adbExec. Original error: 'Command ''C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe' -P 5037 -s ZD22284PKR shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [9dc77d83-2bf9-4203-b264-087a23d67c6e, quit {}]
+Capabilities {appium:appActivity: com.bak.mnr.calculatrice.Ma..., appium:appPackage: com.bak.mnr.calculatrice, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.bak.mnr.calculatrice.Ma..., appPackage: com.bak.mnr.calculatrice, automationName: UiAutomator2, deviceName: ZD22284PKR, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 13}, appium:deviceApiLevel: 33, appium:deviceManufacturer: motorola, appium:deviceModel: moto g72, appium:deviceName: ZD22284PKR, appium:deviceScreenDensity: 400, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: ZD22284PKR, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 2.5, appium:platformVersion: 13, appium:statBarHeight: 105, appium:takesScreenshot: true, appium:viewportRect: {height: 2295, left: 0, top: 105, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 9dc77d83-2bf9-4203-b264-087a23d67c6e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:634)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:230)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:458)
+at tests.BaseTestClass.tearDown(BaseTestClass.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.afterRun(TestRunner.java:845)
+at org.testng.TestRunner.run(TestRunner.java:618)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CalculatorTest -->
+    </test> <!-- Calculator Tests -->
+  </suite> <!-- Calculator Suite -->
+</testng-results>
