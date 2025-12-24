@@ -29,3 +29,7 @@ src/test/java
 ### Extent Report – Execution Summary
 ![Extent Report](docs/screenshots/Screenshot%202025-12-24%20145213.png)
 
+### Extent Report – Test Details
+![Extent Report Details](docs/screenshots/Screenshot%202025-12-24%20145237.png)
+
+
