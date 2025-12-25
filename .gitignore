@@ -1,0 +1,12 @@
+# Maven
+/target/
+
+# TestNG & Cucumber reports
+/test-output/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

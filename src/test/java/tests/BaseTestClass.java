@@ -25,7 +25,7 @@ public class BaseTestClass
 	}
 
 	@BeforeTest
-	public void setup() throws Exception
+	public void setup()
 	{
 		extent = ExtentManager.getExtentReport(); 
 		
@@ -49,9 +49,15 @@ public class BaseTestClass
 		//options.withBrowserName("Chrome");
 		//options.setChromedriverExecutable(System.getProperty("user.dir") + "/driver/chromedriver.exe");
 		
-		URL url = URI.create("http://127.0.0.1:4723/").toURL();
-		
+		URL url;
+		try {
+		    url = URI.create("http://127.0.0.1:4723/").toURL();
+		} catch (Exception e) {
+		    throw new RuntimeException("Invalid Appium server URL", e);
+		}
+
 		driver = new AndroidDriver(url, options);
+
 		
 	}
 	
